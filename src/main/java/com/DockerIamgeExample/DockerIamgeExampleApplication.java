@@ -12,6 +12,10 @@ public class DockerIamgeExampleApplication {
 	public String welcome(){
 		return "This is first docker example";
 	}
+	@GetMapping("/find")
+	public String find(){
+		return "This is new update";
+	}
 
 //	git init
 //	git add README.md
