@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerIamgeExampleApplication {
 	@GetMapping("/welcom")
 	public String welcome(){
-		return "This is first docker example";
+		return "This is first docker example some other changes";
 	}
 	@GetMapping("/find")
 	public String find(){
