@@ -14,7 +14,7 @@ public class DockerIamgeExampleApplication {
 	}
 	@GetMapping("/find")
 	public String find(){
-		return "This is new update";
+		return "This is new update and add new code on this project";
 	}
 
 //	git init
