@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class DockerIamgeExampleApplication {
-	@GetMapping("/welcom")
+	@GetMapping("/welcom to the new production")
 	public String welcome(){
 		return "This is first docker example some other changes";
 	}
